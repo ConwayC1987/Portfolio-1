@@ -5,44 +5,49 @@
   margin: 0;
   padding: 0;
   border: none;
+  box-sizing: border-box;
 }
-
-* {box-sizing: border-box;}
 
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
+nav {
   overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+  background-color: rgba(22, 155, 98);
+  padding: 0px 5px;
 }
 
 .header a {
   float: left;
-  color: black;
+  color: whitesmoke;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;
+  line-height: 75px;
 }
 
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
+/*Logo of the website top right*/
+
+.header .logo {
+  padding-left: 2%;
+  font-size: 35px;
+  color: white;
+  text-shadow: 1px 1px 10px rgb(245, 152, 13), 0 0 25px rgb(216, 216, 220), 0 0 5px rgb(14, 152, 67);
+  letter-spacing: 2px;
+  line-height: 75px; 
 }
 
 .header a:hover {
-  background-color: #ddd;
-  color: black;
+  color: rgb(255, 136, 62);
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color: rgb(255, 136, 62);
   color: white;
 }
 
@@ -62,12 +67,164 @@ body {
   }
 }
 
+/* Hero image */
+/* Image sourced from https://answersingenesis.org/archaeology/ancient-technology/uncovering-assumptions-newgrange/*/
+
+#hero-outer {
+  height: 250px;
+  width:100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#hero {
+  height: 250px;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url('../images/hero.jpg'); 
+
+  /*Creates zoom effect for hero, code from running loving video */
+  animation-name:hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+/* Create a zoom effect for hero image, code from loving running video*/
+
+@keyframes hero-zoom {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+
+  }
+}
+
+/*Text on the cover image styling*/
+
+#cover-text, #cover-text h3,h4{
+  color: white;
+  text-shadow: 1px 1px 10px rgb(43, 33, 18), 0 0 25px rgb(216, 216, 220), 0 0 5px rgb(14, 152, 67);
+  letter-spacing: 2px 
+}
+
+#cover-text {
+  font-size:140%;
+  font-family:Oswald,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 300px;
+  height:110px;
+  padding-top: 0px;
+  padding-left: 0px;
+  color:rgb(39, 103, 25);
+  bottom: 140px;
+  right: 0px;
+  position: absolute;
+  text-align:center;
+}
+
+/* Footer stying text and social media icons*/
+
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: rgb(255, 136, 62);
     color: white;
     text-align: center;
  }
+
+ /* Home page text description in 3 divs*/
+
+ #description {
+  height: 300px;
+}
+
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+  height: 380px;
+}
+
+#right-about {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+  height: 380px;
+}
+
+#center-about {
+  text-align: center;
+  padding-top: 30px;
+  width: 33%;
+  margin: 0 auto;
+  height: 380px;
+  margin: 0 auto;
+}
+
+.left-about-heading {
+  width:80%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.right-about-heading {
+  width:80%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.right-about-heading h2 {
+  text-align: right;
+}
+
+.right-about-heading p {
+  text-align: right;
+}
+
+.left-about-heading h2 {
+  text-align: left;
+}
+
+.left-about-heading p {
+  text-align: left;
+}
+
+/*Line under the headings*/
+hr {
+  border-top: 1px solid #3a3a3a;
+  width: 100%;
+  margin: 5px 0;
+}
+
+
+/* Gif was made by taking a youtube video https://www.youtube.com/watch?v=NTzPxx3SJ1Y&t=55s and used https://gifrun.com/ to make the gif.*/
+
+#sunrise-gif {
+  background: url('../images/sun_rise.gif') no-repeat center;
+  height: 50%;
+  
+}
+
+ /* Footer styling */
+.footer li {
+  display: inline;
+  text-align:center;padding:10px;margin-top:4px;
+}
+
+.footer i {
+  margin: 2%;
+  padding: 2%;
+  color: aliceblue;
+}
