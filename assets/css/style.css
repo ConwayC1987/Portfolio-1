@@ -128,18 +128,6 @@ nav {
   text-align:center;
 }
 
-/* Footer stying text and social media icons*/
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(255, 136, 62);
-    color: white;
-    text-align: center;
- }
-
  /* Home page text description in 3 divs*/
 
  #description {
@@ -211,20 +199,32 @@ hr {
 
 /* Gif was made by taking a youtube video https://www.youtube.com/watch?v=NTzPxx3SJ1Y&t=55s and used https://gifrun.com/ to make the gif.*/
 
-#sunrise-gif {
+#gif {
   background: url('../images/sun_rise.gif') no-repeat center;
   height: 50%;
   
 }
 
+/* Footer stying text and social media icons*/
+
+.footer {
+  position: fixed;
+  font-size:1.5vw;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 136, 62);
+  color: white;
+  text-align: center;
+}
+
  /* Footer styling */
-.footer li {
+ .footer li {
   display: inline;
-  text-align:center;padding:10px;margin-top:4px;
+  text-align:center;padding:10px;margin-top:2px;
 }
 
 .footer i {
-  margin: 2%;
+  margin: 1%;
   padding: 2%;
   color: aliceblue;
 }
