@@ -10,36 +10,55 @@
 
 body { 
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Lato, sans-serif;
 }
 
-nav {
+h1, h2 {
+  font-family: Oswald,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #5a564ff5;
+  text-align:center;
+  padding: 2%;
+}
+
+p {
+  font-family: Oswald,sans-serif;
+  letter-spacing: 1px;
+}
+
+.header {
   overflow: hidden;
   background-color: rgba(22, 155, 98);
   padding: 0px 5px;
 }
 
-.header a {
+.header li {
+  text-transform: uppercase;
   float: left;
   color: whitesmoke;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
+  font-size: 20px; 
   line-height: 75px;
+  font-family: Oswald,sans-serif;
+  list-style-type: none;
+  display: inline;
 }
 
 /*Logo of the website top right*/
 
 .header .logo {
+  font-family: Oswald,sans-serif;
+  text-transform: uppercase;
   padding-left: 2%;
   font-size: 35px;
   color: white;
-  text-shadow: 1px 1px 10px rgb(245, 152, 13), 0 0 25px rgb(216, 216, 220), 0 0 5px rgb(14, 152, 67);
-  letter-spacing: 2px;
+  text-shadow: 1px 1px 5px rgb(213, 231, 217), 0 0 25px rgb(231, 157, 10), 0 0 5px rgb(166, 201, 178);
+  letter-spacing: 10px;
   line-height: 75px; 
+  font-weight: bold;
 }
 
 .header a:hover {
@@ -56,10 +75,10 @@ nav {
 }
 
 @media screen and (max-width: 500px) {
-  .header a {
+  .header li  {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
   }
   
   .header-right {
@@ -149,10 +168,8 @@ nav {
 }
 
 #center-about {
-  text-align: center;
   padding-top: 30px;
   width: 33%;
-  margin: 0 auto;
   height: 380px;
   margin: 0 auto;
 }
@@ -171,6 +188,15 @@ nav {
   line-height: 20px;
   clear: both;
   margin-bottom: 10px;
+}
+
+.center-about-heading {
+  width:80%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .right-about-heading h2 {
@@ -201,30 +227,85 @@ hr {
 
 #gif {
   background: url('../images/sun_rise.gif') no-repeat center;
-  height: 50%;
+  height: 60%;
+  line-height: 150px;
   
 }
 
 /* Footer stying text and social media icons*/
 
 .footer {
-  position: fixed;
-  font-size:1.5vw;
+  font-size:80%;
   bottom: 0;
   width: 100%;
   background-color: rgb(255, 136, 62);
   color: white;
   text-align: center;
+  height: 3.5rem;
+  overflow:hidden;
 }
 
  /* Footer styling */
  .footer li {
   display: inline;
-  text-align:center;padding:10px;margin-top:2px;
+  text-align:center;padding:1px;margin-top:2px;
 }
 
 .footer i {
   margin: 1%;
-  padding: 2%;
+  padding: 0%;
   color: aliceblue;
+}
+
+/*Second page*/
+/*Introduction div stying*/
+#intro {
+  padding:1%;
+}
+
+div.images {
+  border: 1px solid rgb(39, 103, 25);
+}
+
+div.images img {
+  width: 100%;
+  height: 300px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.its-history {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  padding:10px;
 }
