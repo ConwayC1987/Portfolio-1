@@ -168,28 +168,57 @@ p {
 
  /* Home page text description in 3 divs*/
 
+ .flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 33.33%;
+}
+
+.flex-item-right {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 33.33%;
+}
+
+.flex-item-center {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 33.33%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
  #description {
   height: 300px;
 }
 
 #left-about {
   padding-top: 30px;
-  width: 33%;
   float: left;
-  height: 380px;
+  height: 350px;
 }
 
 #right-about {
   padding-top: 30px;
-  width: 33%;
   float: right;
-  height: 380px;
+  height: 350px;
 }
 
 #center-about {
   padding-top: 30px;
-  width: 33%;
-  height: 380px;
+  height: 350px;
   margin: 0 auto;
 }
 
@@ -247,7 +276,7 @@ hr {
 #gif {
   background: url('../images/sun_rise.gif') no-repeat center;
   height: 60%;
-  line-height: 150px;
+  line-height: 250px;
   
 }
 
