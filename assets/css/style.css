@@ -190,7 +190,7 @@ p {
 }
 
 .flex-item-center {
-  background-color: #181717;
+  background-color: #887d7db2;
   padding: 10px;
   flex: 33.33%;
   text-align: center;
@@ -213,21 +213,18 @@ p {
   padding-top: 30px;
   float: left;
   height: 280px;
-  color: antiquewhite;
 }
 
 #right-about {
   padding-top: 30px;
   float: right;
   height: 280px;
-  color: antiquewhite;
 }
 
 #center-about {
   padding-top: 35px;
   padding-left: 20px;
   height: 280px;
-  color: antiquewhite;
 }
 
 .left-about-heading {
@@ -249,7 +246,7 @@ p {
 }
 
 .center-about-heading {
-  width:80%;
+  width:90%;
   line-height: 20px;
   clear: both;
   margin-bottom: 10px;
@@ -267,6 +264,7 @@ p {
 
 .right-about-heading p {
   text-align: right;
+  color: black;
 }
 
 .left-about-heading h2 {
@@ -276,6 +274,7 @@ p {
 
 .left-about-heading p {
   text-align: left;
+  color: black;
 }
 
 /*Line under the headings*/
@@ -287,9 +286,9 @@ hr {
 
 /* Gif styling.*/
 #gif {
-  height: 60% no-repeat;
+  height: auto no-repeat;
   text-align: center;
-  width: 70%;
+  width: 80%;
 }
 
 /* Footer styling text and social media icons*/
