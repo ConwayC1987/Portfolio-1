@@ -108,20 +108,16 @@ p {
 /* Image sourced from https://answersingenesis.org/archaeology/ancient-technology/uncovering-assumptions-newgrange/*/
 
 #hero-outer {
-  height: 250px;
+  height: auto;
   width:100%;
   overflow: hidden;
   position: relative;
 }
 
 #hero {
-  height: 250px;
+  height: auto;
   width:100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-image: url('../images/hero.jpg'); 
+  
 
   /*Creates zoom effect for hero, code from running loving video */
   animation-name:hero-zoom;
