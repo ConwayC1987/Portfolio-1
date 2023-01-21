@@ -401,15 +401,7 @@ p {
   column-gap: 0;
 }
 
-#photos img {
-  width: 100%;
-}
 
-#signup_img {
-  height: auto;
-  width:100%;
-  text-align: center;
-}
 
 #lottery_link a {
   background-color: #117008;
@@ -425,3 +417,22 @@ p {
   font-size: 20px;
   font-weight: bolder;
 }
+
+#signup_img {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+#img_bottom {
+  width: 70%;
+  padding: 10px;
+  flex: 100%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 100%) {
+  #sign_up {
+    flex-direction: column;
+  }
