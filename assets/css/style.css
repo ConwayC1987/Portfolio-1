@@ -406,6 +406,22 @@ p {
 }
 
 #signup_img {
-  width: 100%;
   height: auto;
+  width:100%;
+  text-align: center;
+}
+
+#lottery_link a {
+  background-color: #117008;
+  color: whitesmoke;
+  text-decoration:none;
+}
+
+#form-section {
+  text-align: center;
+}
+
+#form-section li {
+  font-size: 20px;
+  font-weight: bolder;
 }
