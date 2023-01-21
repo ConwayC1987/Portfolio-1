@@ -195,7 +195,6 @@ p {
   flex: 33.33%;
   text-align: center;
   object-fit: none;
-  object-position: center center
 }
 
 /* Responsive layout - makes a one column-layout instead of three-column layout */
@@ -222,7 +221,7 @@ p {
 }
 
 #center-about {
-  padding-top: 35px;
+  padding-top: 30px;
   padding-left: 20px;
   height: 280px;
 }
@@ -249,12 +248,12 @@ p {
   width:90%;
   line-height: 20px;
   clear: both;
-  margin-bottom: 10px;
 }
 
 .center-about-heading h2{
   text-align:center;
   color: antiquewhite;
+  padding-bottom: 10px;
 }
 
 .right-about-heading h2 {
