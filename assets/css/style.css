@@ -79,20 +79,20 @@ p {
     padding: 0%;
   }
 
-/* If screen screen is reduced the logo (website name) will stop floating right and will go into the center */
+/* If screen screen is reduced the logo (website name) will stop floating left and will go into the center */
   .header .logo {
     float: none;
     display: block;
     text-align: center;
   }
-  
+
 /* If screen size is reduced then navbar will stop floating right */
   .header-right {
     float: none;
   }
 }
 
-/* Text on the hero image*/
+/* Text styling for the website name or logo*/
 .header .logo {
   font-family: Oswald,sans-serif;
   text-transform: uppercase;
@@ -137,8 +137,7 @@ p {
   }
 }
 
-/*Text on the cover image styling*/
-
+/* Text on the cover image styling */
 #cover-text, #cover-text h3,h4{
   color: white;
   text-shadow: 1px 1px 20px rgb(43, 33, 18), 0 0 25px rgb(216, 216, 220), 0 0 5px rgb(255, 136, 62);
@@ -146,7 +145,7 @@ p {
   padding-top: 2px;
   padding-right: 4px;
 }
-
+/* Text on the cover image styling */
 #cover-text {
   font-size:140%;
   font-family:Oswald,sans-serif;
@@ -168,28 +167,28 @@ p {
   }
 }
 
+ /* Home page text description in 3 divs */
 
- /* Home page text description in 3 divs*/
-
+/* Flexbox div code from https://www.youtube.com/watch?v=3elGSZSWTbM */
  .flex-container {
   display: flex;
   flex-direction: row;
   font-size: 15px;
   text-align: center;
 }
-
+/* Home page information on the left side styling using flexbox */
 .flex-item-left {
   background-color: #887d7db2;
   padding: 10px;
   flex: 33.33%;
 }
-
+/* Home page information on the right side styling using flexbox */
 .flex-item-right {
   background-color: #887d7db2;
   padding: 10px;
   flex: 33.33%;
 }
-
+/* Home page information on the center styling using flexbox */
 .flex-item-center {
   background-color: #887d7db2;
   padding: 10px;
@@ -205,28 +204,29 @@ p {
   }
 }
 
+/* Styling for the div holding the text on index pg */
  #description {
   height: 300px;
 }
-
+/* Styling for the div holding the text on the left side */
 #left-about {
   padding-top: 30px;
   float: left;
   height: 280px;
 }
-
+/* Styling for the div holding the text on the right side */
 #right-about {
   padding-top: 30px;
   float: right;
   height: 280px;
 }
-
+/* Styling for the div holding the gif in the center */
 #center-about {
   padding-top: 30px;
   padding-left: 20px;
   height: 280px;
 }
-
+/* Styling for the heading on the left side */
 .left-about-heading {
   width:80%;
   float: right;
@@ -235,7 +235,7 @@ p {
   margin-bottom: 10px;
   color: antiquewhite;
 }
-
+/* Styling for the heading on the right side */
 .right-about-heading {
   width:80%;
   float: left;
@@ -244,34 +244,34 @@ p {
   margin-bottom: 10px;
   color: antiquewhite;
 }
-
+/* Styling for the heading in the center */
 .center-about-heading {
   width:90%;
   line-height: 20px;
   clear: both;
 }
-
+/* Styling for the center heading text */
 .center-about-heading h2{
   text-align:center;
   color: antiquewhite;
   padding-bottom: 10px;
 }
-
+/* Styling for the right heading text */
 .right-about-heading h2 {
   text-align: right;
   color: antiquewhite;
 }
-
+/* Styling for the paragraph on right side div */
 .right-about-heading p {
   text-align: right;
   color: black;
 }
-
+/* Styling for the heading on left side div */
 .left-about-heading h2 {
   text-align: left;
   color: antiquewhite;
 }
-
+/* Styling for the paragraph on left side div */
 .left-about-heading p {
   text-align: left;
   color: black;
@@ -290,7 +290,7 @@ hr {
   text-align: center;
   width: 80%;
 }
-
+/*____________________________________________________________________________________*/
 /* Footer styling text and social media icons*/
 
  /* Footer styling */
@@ -341,28 +341,24 @@ hr {
   flex-basis: 100%;
  }
 
-/*Second page*/
-/*Introduction div stying*/
+ /*________________________________________________________________________________________*/
+/*Second page history page*/
+
+/*Introduction text padding div stying*/
 #intro {
   padding:1%;
 }
-
-div.images {
-  border: 1px solid rgb(39, 103, 25);
-}
-
+/* Image */
 div.images img {
   width: 100%;
-  height: 300px;
+  height: 280px;
+  border: 1px solid rgb(39, 103, 25);
 }
 
 div.desc {
   padding: 15px;
   text-align: left;
-}
-
-* {
-  box-sizing: border-box;
+  border: 1px solid rgb(39, 103, 25);
 }
 
 .its-history {
@@ -372,14 +368,14 @@ div.desc {
 }
 
 @media only screen and (max-width: 700px) {
-  .responsive {
-    width:70%;
+  .its-history {
+    width:90%;
     margin: 6px 0;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
+  .its-history {
     width: 100%;
   }
 }
