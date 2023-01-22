@@ -7,12 +7,13 @@
   border: none;
   box-sizing: border-box;
 }
-
+/* Main body of the site (font styles) */
 body { 
   margin: 0;
   font-family: Lato, sans-serif;
 }
 
+/* Styling for all h1 and h2 text */
 h1, h2 {
   font-family: Oswald,sans-serif;
   text-transform: uppercase;
@@ -22,13 +23,13 @@ h1, h2 {
   padding: 2%;
 }
 
+/* Styling for all h1 and h2 text */
 p {
   font-family: Oswald,sans-serif;
   letter-spacing: 1px;
 }
 
-/* Header with nav bar in it, some code used and changed from W3schools.com*/
-
+/* Header with nav bar in it, some code used and changed from W3schools.com */
 .header {
   overflow: hidden;
   background-color: #117008;
@@ -69,7 +70,7 @@ p {
   float: right;
 }
 
-/* Media query to change nav bar to stack on top of eachother if screen size is reduced*/
+/* Media query that changes the nav bar to stack on top of eachother if screen size is reduced */
 @media screen and (max-width: 500px) {
   .header li {
     float: none;
@@ -78,19 +79,20 @@ p {
     padding: 0%;
   }
 
+/* If screen screen is reduced the logo (website name) will stop floating right and will go into the center */
   .header .logo {
     float: none;
     display: block;
     text-align: center;
   }
-
+  
+/* If screen size is reduced then navbar will stop floating right */
   .header-right {
     float: none;
   }
 }
 
-/*Logo of the website top right*/
-
+/* Text on the hero image*/
 .header .logo {
   font-family: Oswald,sans-serif;
   text-transform: uppercase;
@@ -105,15 +107,14 @@ p {
   
 
 /* Hero image */
-/* Image sourced from https://answersingenesis.org/archaeology/ancient-technology/uncovering-assumptions-newgrange/*/
-
+/* The main div holding everything with hero image needed for zoom effect, code got from Love running video*/
 #hero-outer {
   height: auto;
   width:100%;
   overflow: hidden;
   position: relative;
 }
-
+/* Hero image styling, giving a responsive design */
 #hero img {
   height: auto;
   width:100%;
@@ -123,7 +124,6 @@ p {
   animation-duration: 5s;
   animation-fill-mode: forwards;
 }
-
 
 /* Create a zoom effect for hero image, code from loving running video*/
 
@@ -159,6 +159,7 @@ p {
   text-shadow: 1px 1px 10px rgb(43, 33, 18), 0 0 25px rgb(216, 216, 220), 0 0 5px rgb(14, 152, 67);
 }
 
+/* If screen screen is reduced the text on the hero image will disappear */
 @media screen and (max-width: 500px){
   #cover-text {
     float: none;
