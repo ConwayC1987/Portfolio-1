@@ -18,7 +18,7 @@ h1, h2 {
   font-family: Oswald,sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #5a564ff5;
+  color: #3f3c36c0;
   text-align:center;
   padding: 2%;
 }
@@ -169,7 +169,7 @@ p {
 
  /* Home page text description in 3 divs */
 
-/* Flexbox div code from https://www.youtube.com/watch?v=3elGSZSWTbM */
+/* Flexbox div code from https://www.youtube.com/watch?v=3elGSZSWTbM and W3schools */
  .flex-container {
   display: flex;
   flex-direction: row;
@@ -198,11 +198,12 @@ p {
 }
 
 /* Responsive layout - makes a one column-layout instead of three-column layout */
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   .flex-container {
     flex-direction: column;
   }
 }
+
 
 /* Styling for the div holding the text on index pg */
  #description {
@@ -294,10 +295,48 @@ hr {
 /* Footer styling text and social media icons*/
 
  /* Footer styling */
- * {
-  padding: 0;
-  margin: 0%;
- }
+/* Flexbox div code from https://www.youtube.com/watch?v=3elGSZSWTbM */
+.footer_flex {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  text-align: center;
+  margin-top: auto
+
+}
+/* Home page information on the left side styling using flexbox */
+.footer_flex .facebook-link {
+  background-color: rgb(8, 184, 49);
+  padding: 10px;
+  flex: 33.33%;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+/* Home page information on the right side styling using flexbox */
+.footer_flex .instagram-link {
+  background-color: rgb(247, 246, 247);
+  flex-grow: 1;
+  flex-basis: 100%;
+  padding: 10px;
+  flex: 33.33%;
+}
+/* Home page information on the center styling using flexbox */
+.footer_flex .twitter-link {
+  padding: 10px;
+  flex: 33.33%;
+  text-align: center;
+  object-fit: none;
+}
+
+/* Responsive layout - makes a one column-layout instead of three-column layout */
+@media (max-width: 950px) {
+  footer .flex-container {
+    flex-direction: row;
+    bottom: 0;
+  }
+}
+
+
  footer {
   background-color: green;
   display: flex;
@@ -311,16 +350,16 @@ hr {
  }
 
  .flex-container a {
-  font-size: 25px;
-  color: #030303;
-  padding: 10px 1px;
+  font-size: 20px;
+  color: black;
  }
 
  #footer-text {
   font-size: 70%;
   text-align: center;
   color: white;
-  padding: 10px 1pxs;
+
+  padding: 5px;
  }
 
  .facebook-link {
@@ -345,16 +384,19 @@ hr {
 /*Second page history page*/
 
 /*Introduction text padding div stying*/
-#intro {
-  padding:1%;
+.intro {
+  padding:1px;
 }
-/* Image */
+.intro .p{
+  padding:5px;
+}
+/* Image in the div styling */
 div.images img {
   width: 100%;
   height: 280px;
   border: 1px solid rgb(39, 103, 25);
 }
-
+/* Text under in the image styling */
 div.desc {
   padding: 15px;
   text-align: left;
@@ -391,7 +433,9 @@ p {
 }
 
 
-/* gallery */
+/* Gallery page */
+
+/*__________________________________________________________________________*/
 
 #photos {
   clear: both;
@@ -404,7 +448,7 @@ p {
   width: 100%;
 }
 
-/* Media queries */
+/* Media queries for gallery page*/
 
 /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
@@ -413,7 +457,9 @@ p {
   }
 }
 
+/*____________________________________________________________________________________*/
 
+/* Lottery page */
 
 #lottery_link a {
   background-color: #117008;
