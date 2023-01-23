@@ -1,108 +1,78 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CI logo](https://www.meath.ie/sites/default/files/styles/ultra_widescreen_television/public/2017-04/Newgrange.jpg?h=f8455a73&itok=j_cO_Hxv)
 
-Welcome ConwayC1987,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Live demo [_here_](https://www.example.com).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+***
 
-## Gitpod Reminders
+## **Table of Contents**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. Requirements
 
-`python3 -m http.server`
+2. General Information on the website
 
-A blue button should appear to click: _Make Public_,
+3. Technologies Used
 
-Another blue button should appear to click: _Open Browser_.
+4. Features include
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+5. Troubleshooting
 
-A blue button should appear to click: _Make Public_,
+6. What I would add or change if I could
 
-Another blue button should appear to click: _Open Browser_.
+7. Acknowledgements and Credits
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+***
 
-To log into the Heroku toolbelt CLI:
+1. ## Requirements
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+2. ## Newgrange
 
-------
+This website was is all about Newgrange it provides the user with information of the history of Newgrange, what makes it so special, with an image gallery and a page with details on how to enter a draw for a chance to be in Newgrange for the Winter Solstice. The website is fully responsive on all devices.
 
-## Release History
+***
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+3. ## Technologies Used
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Technologies used in this website include  
+- HTML
+- CSS 
+- 3D Word art, free windows software, used to make my favicon for the website.
+- Gifrun, which is a free way to change videos into gif's. Website link here https://gifrun.com/.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+***
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+4. ## Features Used
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- The navbar is a key feature without the site and is same layout on all pages making an easy user experience.
+- The site logo is on the left hand side of the navbar and is also a clickable link to bring the user back to the home page and will change colour to let the user know what page they are on.
+- The navbar on the left has three clickable links to different pages on the website that will change colour when clicked.
+- When the screen size goes down the navbar will stack on top of eachother and center themselves in the screen.
+- The navbar means the user will not have to click back as everything is accessible from the navbar. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+***
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+5. ## Troubleshooting
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+***
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+6. ## What I would add or change if I could
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+***
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+7. ## Acknowledgements and Credits
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+kevin Powell youtube videos on flexbox was a major help to me this project. The love running video where I got a
+lot of code from and the slides from the course. W3schools where I got a lot of code ideas on how to make little 
+things better. My mentor Gareth Mcgirr who helped me with the project from the concept to the design and troubleshooting. He showed me tricks to make my life a lot easier.
+- Code from the Love Running project was used through out the project and mixed with what I learned years ago.
+- Code for the navbar was a mix of the Love Running project but the responsive idea was from W3schools.
+- Code using flexbox was taken from Kevin Powell youtube video's https://www.youtube.com/watch?v=3elGSZSWTbM.
+- Code for the history page was mixed with W3schools and code institute videos.
+- The gallery page main section code was from the Love Running project.
+Information text gathered from various different resources online.
+- 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+***
