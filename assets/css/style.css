@@ -163,7 +163,6 @@ p {
   #cover-text {
     float: none;
     display: none;
-  
   }
 }
 
@@ -284,7 +283,7 @@ hr {
 
 /* Gif styling.*/
 #gif {
-  height: auto no-repeat;
+  height: auto;
   text-align: center;
   width: 80%;
 }
@@ -292,7 +291,7 @@ hr {
 /* Footer styling text and social media icons*/
 
  /* Footer styling */
-/* Flexbox div code from https://www.youtube.com/watch?v=3elGSZSWTbM */
+/* Flexbox div code from https://www.youtube.com/watch?v=3elGSZSWTbM and W3schools */
 .footer_flex {
   display: flex;
   flex-direction: row;
@@ -324,14 +323,13 @@ hr {
   object-fit: none;
 }
 
-/* Responsive layout - makes a one column-layout instead of three-column layout */
-@media (max-width: 950px) {
+/* Responsive layout - makes footer stay in a row */
+@media (max-width: 1200px) {
   footer .flex-container {
     flex-direction: row;
     bottom: 0;
   }
 }
-
 
  footer {
   background-color: green;
@@ -354,7 +352,6 @@ hr {
   font-size: 70%;
   text-align: center;
   color: white;
-
   padding: 5px;
  }
 
@@ -486,7 +483,7 @@ p {
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 100%) {
+@media (max-width: 1200px) {
   #sign_up {
     flex-direction: column;
   }
