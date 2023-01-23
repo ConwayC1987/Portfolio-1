@@ -179,26 +179,26 @@ p {
 /* Home page information on the left side styling using flexbox */
 .flex-item-left {
   background-color: #887d7db2;
-  padding: 10px;
+  padding: 5px;
   flex: 33.33%;
 }
 /* Home page information on the right side styling using flexbox */
 .flex-item-right {
   background-color: #887d7db2;
-  padding: 10px;
+  padding: 5px;
   flex: 33.33%;
 }
 /* Home page information on the center styling using flexbox */
 .flex-item-center {
   background-color: #887d7db2;
-  padding: 10px;
+  padding: 5px;
   flex: 33.33%;
   text-align: center;
   object-fit: none;
 }
 
 /* Responsive layout - makes a one column-layout instead of three-column layout */
-@media (max-width: 950px) {
+@media (max-width: 1200px) {
   .flex-container {
     flex-direction: column;
   }
@@ -206,9 +206,6 @@ p {
 
 
 /* Styling for the div holding the text on index pg */
- #description {
-  height: 300px;
-}
 /* Styling for the div holding the text on the left side */
 #left-about {
   padding-top: 30px;
@@ -234,7 +231,7 @@ p {
   line-height: 20px;
   clear: both;
   margin-bottom: 10px;
-  color: antiquewhite;
+  color: white;
 }
 /* Styling for the heading on the right side */
 .right-about-heading {
@@ -243,7 +240,7 @@ p {
   line-height: 20px;
   clear: both;
   margin-bottom: 10px;
-  color: antiquewhite;
+  color: white;
 }
 /* Styling for the heading in the center */
 .center-about-heading {
@@ -254,13 +251,13 @@ p {
 /* Styling for the center heading text */
 .center-about-heading h2{
   text-align:center;
-  color: antiquewhite;
+  color: white;
   padding-bottom: 10px;
 }
 /* Styling for the right heading text */
 .right-about-heading h2 {
   text-align: right;
-  color: antiquewhite;
+  color: white;
 }
 /* Styling for the paragraph on right side div */
 .right-about-heading p {
@@ -270,7 +267,7 @@ p {
 /* Styling for the heading on left side div */
 .left-about-heading h2 {
   text-align: left;
-  color: antiquewhite;
+  color: white;
 }
 /* Styling for the paragraph on left side div */
 .left-about-heading p {
@@ -301,8 +298,7 @@ hr {
   flex-direction: row;
   font-size: 15px;
   text-align: center;
-  margin-top: auto
-
+  margin-top: auto;
 }
 /* Home page information on the left side styling using flexbox */
 .footer_flex .facebook-link {
