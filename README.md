@@ -23,20 +23,20 @@ Live demo [_here_](https://www.example.com).
 
 ***
 
-1. ### Requirements
+## 1. Requirements
 
 - In this project, I need to build a static front-end site to present useful information to users, using all the technologies that you have learned about so far
 - The goal of the site is to provide a reliable source of information pertaining to the history of a particular artefact, person, place or event
 - Technologies required are HTML and CSS.
 - Website needs a timeline of the subject material, evidence-based information and images/video supporting the facts.
 
-2. ### Newgrange
+## 2. Newgrange
 
 This website was is all about Newgrange it provides the user with information of the history of Newgrange, what makes it so special, with an image gallery and a page with details on how to enter a draw for a chance to be in Newgrange for the Winter Solstice. The website is fully responsive on all devices.
 
 ***
 
-3. ### Technologies Used
+## 3. Technologies Used
 
 Technologies used in this website include  
 - HTML
@@ -46,7 +46,7 @@ Technologies used in this website include
 
 ***
 
-4. ### Features Used
+## 4. Features Used
 
 - The navbar is a key feature without the site and is same layout on all pages making an easy user experience.
 - The site logo is on the left hand side of the navbar and is also a clickable link to bring the user back to the home page and will change colour to let the user know what page they are on.
@@ -58,18 +58,33 @@ Technologies used in this website include
 
 ***
 
-5. ### Troubleshooting
+## 5. Troubleshooting
+I had a problem with the index/home page when the screen size was reduced, the problem was something really simple but took days to solve. Solution was getting rid of the height measurement from the div the above.
+
+![Problem with the footer](/assets/images/footer-problem.jpg "Footer stuck in the middle of the screen")
+
+### I used lighthouse on all the pages on the site and resolved most issues found in the report. 
+
+### - This is the lighthouse report from the index/home page.
+![Lighthouse report](/assets/images/lighthouse_index.jpg "Index lighthouse result")
+### - This is the lighthouse report from the history page.
+![Lighthouse report](/assets/images/lighthouse_history.jpg "History lighthouse result")
+### - This is the lighthouse report from the gallery page.
+![Lighthouse report](/assets/images/lighthouse_results_gallery.jpg "Gallery lighthouse result")
+### - This is the lighthouse report from the Lottery page.
+![Lighthouse report](/assets/images/Lighthouse_results_lotterydraw.jpg "Lottery page lighthouse result")
+
 
 ***
 
-6. ### What I would add or change if I could
+## 6. What I would add or change if I could
 
 If I had the time I would introduce a map feature with the site location and blog or comments section from people's experience of going to Newgrange. I would of also liked to make the website more interactive for the users by using some javascript.
 
 ***
 
 
-7. ### Acknowledgements and Credits
+## 7. Acknowledgements and Credits
 
 kevin Powell youtube videos on flexbox was a major help to me this project. The love running video where I got a
 lot of code from and the slides from the course. W3schools where I got a lot of code ideas on how to make little 
