@@ -12,6 +12,8 @@
     <meta name = "author" content = "Ciaran Conway">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" href="assets/images/favicon.ico.png" type="image/jpg" sizes="32x32">
+    <!-- Script from fontawesome for social meadia icons -->
+    <script src="https://kit.fontawesome.com/1a77b788f3.js" crossorigin="anonymous"></script>
     <!-- The website Title-->
     <title>Newgrange</title>
 </head>
@@ -28,7 +30,7 @@
             <ul class="header-right">
                 <li><a class="active" href="history.html">History</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="signup.html">Lottery Draw</a></li>
+                <li><a href="lottery.html">Lottery Draw</a></li>
             </ul>
 
         </nav>
@@ -38,7 +40,7 @@
 
         <section>
             <!-- Div with the introduction text -->
-            <div id="intro">
+            <div class="intro">
                 <h1>Newgrange's History</h1>
                 <p>
                     Newgrange was constructed c. 3200 BCE, pre-dating the Pyramids of Giza and Stonehenge, and is part
@@ -53,8 +55,7 @@
             <div class="its-history">
                 <div class="images">
                     <!-- Image got from https://www.newgrange.com/newgrange/newgrange-doehlg.jpg -->
-                    <img src="/assets/images/arial-pic.jpg" alt="Arial photo of Newgrange" width="600" height="auto">
-                    </a>
+                    <img src="/assets/images/arial-pic.jpg" alt="Arial photo of Newgrange" width="600" height="400">
                     <!-- Text under the image -->
                     <div class="desc">
                         <p>
@@ -73,8 +74,7 @@
                 <div class="images">
                     <!-- Image got from https://www.exploredplanet.com/wp-content/uploads/2020/07/GettyImages-186797999-82007.jpg?width=800&height=533 -->
                     <img src="/assets/images/entrance.jpg" alt="The entrance of Newgrange showing the wall art"
-                        width="600" height="auto">
-                    </a>
+                        width="600" height="400">
                     <!-- Text under the image -->
                     <div class="desc">
                         <p>
@@ -91,7 +91,7 @@
             <div class="clearfix"></div>
 
             <div style="padding:6px;">
-                <div id="intro">
+                <div class="intro">
                     <h2>Building of the Newgrange</h2>
                     <p>
                         There was an older structure on the site, which was dismantled and its stones used in the early
@@ -110,9 +110,8 @@
                 <div class="its-history">
                     <div class="images">
                         <!-- Image got from https://deirdremorgan1.files.wordpress.com/2014/04/log-rolling.jpg -->
-                        <img src="/assets/images/moving-stones.jpg" alt="How Stone age men moved large rocks"
-                            width="600" height="auto">
-                        </a>
+                        <img src="/assets/images/moving-stones1.jpg" alt="How Stone age men moved large rocks"
+                            width="600" height="400">
                         <!-- Text under the image -->
                         <div class="desc">
                             <p>
@@ -131,8 +130,7 @@
                     <div class="images">
                         <!-- Image got from https://cdn.shopify.com/s/files/1/0603/7087/8620/files/Newgrange_roof-slab-diagram.jpg -->
                         <img src="/assets/images/making-newgrange.jpg"
-                            alt="The builders of Newgrange constructing the wall and roof" width="600" height="auto">
-                        </a>
+                            alt="The builders of Newgrange constructing the wall and roof" width="600" height="400">
                         <!-- Text under the image -->
                         <div class="desc">
                             <p>
@@ -170,20 +168,23 @@
                     appears.
                 </p>
             </div>
+            
             <!-- Video sourced from youtube -->
-            <p style="text-align: center;">
-                <iframe width="350" height="290" src="https://www.youtube.com/embed/2ldH0a_LsX4"
-                    title="New Light at Newgrange" frameborder="0"
+            <div style="text-align: center;">
+                <iframe width="310" height="260" src="https://www.youtube.com/embed/2ldH0a_LsX4"
+                    title="New Light at Newgrange" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen>
                 </iframe>
+            </div>
+            
         </section>
 
     </main>
     <!-- Footer on the bottom of the screen with social media icons and copyright info-->
     <footer>
         <!-- Container using flexbox-->
-        <section class="flex-container">
+        <div class="flex-container">
             <div class="facebook-link"><a href="https://www.facebook.com/newgrangeandknowth/" target="_blank"
                     rel="noopener" aria-label="Visit Newgrange's Facebook page (opens in new tab)"><i
                         class="fa-brands fa-facebook fa-lg"></i></a></div>
@@ -194,14 +195,12 @@
                     href="https://twitter.com/newgrangeknowth?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                     target="_blank" rel="noopener" aria-label="Visit Newgrange's Twitter (opens in new tab)"><i
                         class="fa-brands fa-twitter fa-lg"></i></a></div>
-        </section>
+            </div>
         <section id="footer-text">
             <h3>This website is for educational purposes and is © copyright 2023</h3>
         </section>
     </footer>
 
 </body>
-<!-- Script from fontawesome for social meadia icons -->
-<script src="https://kit.fontawesome.com/1a77b788f3.js" crossorigin="anonymous"></script>
 
 </html>

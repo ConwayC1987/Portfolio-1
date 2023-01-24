@@ -59,7 +59,7 @@ Technologies used in this website include
 ***
 
 ## 5. Troubleshooting
-I had a problem with the index/home page when the screen size was reduced, the problem was something really simple but took days to solve. Solution was getting rid of the height measurement from the div the above.
+I had a problem with the index/home page when the screen size was reduced, the footer was staying in the middle of screen the problem was something really simple but took days to solve. Solution was getting rid of the height measurement from the div the above the footer.
 
 ![Problem with the footer](/assets/images/footer-problem.jpg "Footer stuck in the middle of the screen")
 
