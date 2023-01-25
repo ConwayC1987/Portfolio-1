@@ -321,7 +321,7 @@ hr {
   height: auto;
   text-align: center;
   width: 80%;
-  overflow: auto;
+  overflow: hidden;
 }
 /*____________________________________________________________________________________*/
 /* Footer styling text and social media icons*/
@@ -461,6 +461,10 @@ p {
   padding:10px;
 }
 
+#video {
+  width: 100%;
+  height: auto;
+}
 
 /* Gallery page */
 
