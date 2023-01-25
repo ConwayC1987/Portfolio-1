@@ -174,21 +174,24 @@ p {
   background-color: #887d7db2;
   padding: 2px;
   flex: 33.33%;
+  margin: 0;
 }
 /* Home page information on the right side styling using flexbox */
 .flex-item-right {
   background-color: #887d7db2;
   padding: 2px;
   flex: 33.33%;
+  margin: 0;
 }
 /* Home page information on the center styling using flexbox */
 .flex-item-center {
   background-color: #887d7db2;
   padding: 2px;
   flex: 33.33%;
+  margin: 0;
 }
 
-/* Responsive layout - makes a one column-layout instead of three-column in a row layout */
+/* Responsive layout - makes a one column-layout instead of three-column in a row layout code idea from w3schools*/
 @media (max-width: 1200px) {
   .flex-container {
     flex-direction: column;
@@ -226,10 +229,17 @@ p {
     height: 200px;
     padding-top: 0;
   }
-  #right-about-heading p {
+  #right-about .right-about-heading p {
+    float: none;
     text-align: left;
   }
-
+}
+/* Gif media query to center it on a small screens */
+@media (max-width: 420px){
+  #gif {
+    width: 100%;
+    padding-right: 50%;
+  }
 }
 
 /* Styling for the div holding the text on index pg */
@@ -311,6 +321,7 @@ hr {
   height: auto;
   text-align: center;
   width: 80%;
+  overflow: auto;
 }
 /*____________________________________________________________________________________*/
 /* Footer styling text and social media icons*/

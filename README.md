@@ -72,7 +72,10 @@ This is an image of the navbar when the screen size is reduced to fit moblie pho
 - I decided into introduce a gif on the home page of what Newgrange is most known for The Winter Solstice. I did this to draw the user in and get them interested. The gif is of sun as it enters the passage way. 
 - The gif was taken from a youtube video https://www.youtube.com/watch?v=NTzPxx3SJ1Y&t=55s and I then used https://gifrun.com/ to make the gif.
 
+## Video
+![Gif image](/assets/images/readme_gif.jpg "Gif image Winter Solstice in Newgrange")
 
+- I decided to introduce a video for user that wanted to learn more about Newgrange.
 
 ***
 
