@@ -70,7 +70,7 @@ p {
   float: right;
 }
 
-/* Media query that changes the nav bar to stack on top of eachother if screen size is reduced */
+/* Media query that changes the nav bar to stack on top of eachother if screen size is reduced code from w3schools */
 @media screen and (max-width: 500px) {
   .header li {
     float: none;
@@ -167,6 +167,7 @@ p {
   flex-direction: row;
   font-size: 15px;
   text-align: center;
+  margin: 0;
 }
 /* Home page information on the left side styling using flexbox */
 .flex-item-left {
@@ -191,9 +192,42 @@ p {
 @media (max-width: 1200px) {
   .flex-container {
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
   }
-  #left-about-heading {
-    float: right;
+   .flex-item-left .left-about-heading
+   {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .flex-item-right .right-about-heading {
+    float: none;
+    width: 100%;
+    clear: both;
+  }
+  #right-about .right-about-heading h2 {
+    text-align: center;
+  }
+  #left-about .left-about-heading h2 {
+    text-align: center;
+  }
+  #center-about .center-about-heading h2 {
+  text-align: center;
+  padding-right: 20%;
+  }
+  #left-about {
+    height: 200px;
+    padding-top: 0;
+  }
+  #right-about
+ {
+    height: 200px;
+    padding-top: 0;
+  }
+  #right-about-heading p {
+    text-align: left;
   }
 
 }
@@ -237,10 +271,10 @@ p {
 .center-about-heading h2{
   width:100%;
   line-height: 20px;
-  clear: both;
   text-align:center;
   color: white;
   padding-bottom: 10px;
+  padding-right: 20%;
 }
 /* Styling for the center heading text */
 

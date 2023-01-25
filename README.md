@@ -7,19 +7,19 @@ Live demo [_here_](https://www.example.com).
 
 # **Table of Contents**
 
-## 1. Requirements
+## 1. Requirements.....
 
-## 2. General Information on the website
+## 2. General Information on the website.....
 
-## 3. Technologies Used
+## 3. Technologies Used.....
 
-## 4. Features included
+## 4. Features included.....
 
-## 5. Troubleshooting
+## 5. Troubleshooting.....
 
-## 6. What I would add or change if I could
+## 6. What I would add or change if I could.....
 
-## 7. Acknowledgements and Credits
+## 7. Acknowledgements and Credits.....
 
 ***
 
@@ -32,7 +32,7 @@ Live demo [_here_](https://www.example.com).
 
 ## 2. Newgrange the website
 
-This website was is all about Newgrange it provides the user with information of the history of Newgrange, what makes it so special, with an image gallery and a page with details on how to enter a draw for a chance to be in Newgrange for the Winter Solstice. The website is fully responsive on all devices and descripts how Newgrange was made and when, a video is also provided if the user wanted to learn more.
+This website was is all about Newgrange it provides the user with information of the history of Newgrange, what makes it so special, with an image gallery and a page with details on how to enter a draw for a chance to be in Newgrange for the Winter Solstice. The website is fully responsive on all devices and describes how Newgrange was made, when, and by who a video is also provided if the user wanted to learn more.
 
 ***
 
@@ -48,10 +48,11 @@ Technologies used in this website include
 
 ## 4. Features Used
 
+## Navbar
 ![Navbar](/assets/images/navbar.jpg "Navbar image from the website")
 - The navbar is a key feature without the site and is same layout on all pages making an easy user experience.
 - The site logo is on the left hand side of the navbar and is also a clickable link to bring the user back to the home page and will change colour to let the user know what page they are on.
-- The navbar on the left has three clickable links to different pages on the website that will change colour when clicked.
+- The navbar on the left has three clickable links to different pages on the website that will change colour when clicked. When the user hovers over the link the colour changes so the user knows what page they are selecting.
 - When the screen size goes down the navbar will stack on top of eachother and center themselves in the screen.
 - The navbar means the user will not have to click back as everything is accessible from the navbar. 
 - The colour scheme is kept through out the website, representing the Irish flag colours.
@@ -59,6 +60,19 @@ Technologies used in this website include
 
 This is an image of the navbar when the screen size is reduced to fit moblie phones.
 ![Navbar](/assets/images/navabar_phone_screen.jpg "Navbar image from the website on phone screen size")
+
+## Hero Image
+![Hero image](/assets/images/hero_readme.jpg "Hero image sunrise at Newgrange")
+
+- The hero image of Newgrange is a great picture and the zoom effect is used on the image every time it is opened or refreshed giving the user and nice experience. The effect looks like the sun is rising over Newgrange this code was from the Love Running video.
+
+## Gif
+![Gif image](/assets/images/readme_gif.jpg "Gif image Winter Solstice in Newgrange")
+
+- I decided into introduce a gif on the home page of what Newgrange is most known for The Winter Solstice. I did this to draw the user in and get them interested. The gif is of sun as it enters the passage way. 
+- The gif was taken from a youtube video https://www.youtube.com/watch?v=NTzPxx3SJ1Y&t=55s and I then used https://gifrun.com/ to make the gif.
+
+
 
 ***
 
@@ -98,7 +112,7 @@ I had a problem with the index/home page when the screen size was reduced, the f
 
 ## 6. What I would add or change if I could
 
-If I had the time I would introduce a map feature with the site location and blog or comments section from people's experience of going to Newgrange. I would of also liked to make the website more interactive for the users by using some javascript. Although I am very happy with my navbar, I would consider changing the navbar to a burger menu but I think my navbar suits the requirements of the project.
+If I had the time I would introduce a map feature with the site location and blog or comments section from people's experience of going to Newgrange. I would of also liked to make the website more interactive for the users by using some javascript. Although I am very happy with my navbar, I would consider changing the navbar to a burger menu but I think my navbar suits the requirements of the project. I could of added a lot more detailed history on Newgrange with extra pages on important aspects of its history and possibly a page for 20 facts the user might want know if they didn't want to read a detailed history on Newgrange.
 
 ***
 
