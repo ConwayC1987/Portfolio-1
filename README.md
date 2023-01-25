@@ -127,6 +127,7 @@ things better. My mentor Gareth Mcgirr who helped me with the project from the c
 - Code using flexbox was taken from Kevin Powell youtube video's https://www.youtube.com/watch?v=3elGSZSWTbM.
 - Code for the history page was mixed with W3schools and code institute videos.
 - The gallery page main section code was from the Love Running project.
+- Code for the footer was take from https://www.youtube.com/watch?v=VUydBuotmR4 and mixed with w3schools.
 
 Information text gathered from various different resources online.
 The text information was got from various different websites which include.
@@ -137,6 +138,7 @@ The text information was got from various different websites which include.
 - https://en.wikipedia.org/wiki/Newgrange
 - https://www.history.co.uk/articles/the-mystery-of-newgrange-ireland-s-megalithic-marvel
 - https://arthistoryleavingcert.com/pre-christian-ireland-2/newgrange/
+
 
 
 ***
