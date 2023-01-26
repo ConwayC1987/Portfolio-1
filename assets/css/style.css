@@ -479,6 +479,7 @@ p {
 
 #photos img {
   width: 100%;
+  height: auto;
 }
 
 /* Media queries for gallery page*/
