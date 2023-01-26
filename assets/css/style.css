@@ -429,7 +429,6 @@ div.images img {
 div.desc {
   padding: 15px;
   text-align: left;
-  border: 1px solid rgb(39, 103, 25);
 }
 
 .its-history {
@@ -460,15 +459,16 @@ div.desc {
 p {
   padding:10px;
 }
-
+/* Video on the history page */
 #video {
   width: 100%;
   height: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-/* Gallery page */
-
 /*__________________________________________________________________________*/
+/* Gallery page */
 
 #photos {
   clear: both;
