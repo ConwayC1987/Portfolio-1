@@ -216,9 +216,8 @@ p {
   #left-about .left-about-heading h2 {
     text-align: center;
   }
-  #center-about .center-about-heading h2 {
+  .center-about-heading h2 {
   text-align: center;
-  padding-right: 20%;
   }
   #left-about {
     height: 200px;
@@ -238,7 +237,7 @@ p {
 @media (max-width: 420px){
   #gif {
     width: 100%;
-    padding-right: 50%;
+    padding-right: 30%;
   }
 }
 
@@ -251,12 +250,6 @@ p {
 /* Styling for the div holding the text on the right side */
 #right-about {
   padding-top: 30px;
-  height: 280px;
-}
-/* Styling for the div holding the gif in the center */
-#center-about {
-  padding-top: 30px;
-  padding-left: 60px;
   height: 280px;
 }
 /* Styling for the heading on the left side */
@@ -284,7 +277,6 @@ p {
   text-align:center;
   color: white;
   padding-bottom: 10px;
-  padding-right: 20%;
 }
 /* Styling for the center heading text */
 
@@ -320,7 +312,7 @@ hr {
 #gif {
   height: auto;
   text-align: center;
-  width: 80%;
+  width: 100%;
   overflow: hidden;
 }
 /*____________________________________________________________________________________*/
