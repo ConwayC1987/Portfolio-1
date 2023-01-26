@@ -199,45 +199,54 @@ p {
     margin: 0;
     width: 100%;
   }
-   .flex-item-left .left-about-heading
-   {
+  /* Left hand div side heading after screen size reduced */
+    .flex-item-left .left-about-heading {
     float: none;
     width: 100%;
     text-align: center;
   }
-  .flex-item-right .right-about-heading {
+  /* Right hand div side heading after screen size reduced */
+    .flex-item-right .right-about-heading {
     float: none;
     width: 100%;
     clear: both;
   }
-  #right-about .right-about-heading h2 {
+    /* Right hand div side heading centered after screen size reduced */
+    #right-about .right-about-heading h2 {
     text-align: center;
   }
-  #left-about .left-about-heading h2 {
+  /* Left hand div side heading centered after screen size reduced */
+    #left-about .left-about-heading h2 {
     text-align: center;
   }
-  .center-about-heading h2 {
-  text-align: center;
-  }
+  /* Center div heading centered and padding on the top after screen size reduced */
+    .center-about-heading h2 {
+    text-align: center;
+    padding-top: 50px;
+  }   
+}
+/* Div on the left of the screen on large screens */
   #left-about {
     height: 200px;
     padding-top: 0;
   }
+  /* Div on the right of the screen on large screens */
   #right-about
  {
     height: 200px;
     padding-top: 0;
   }
+  /* Main text right side of index page */
   #right-about .right-about-heading p {
     float: none;
     text-align: left;
   }
-}
+
 /* Gif media query to center it on a small screens */
 @media (max-width: 420px){
-  #gif {
-    width: 100%;
-    padding-right: 30%;
+  .center-about-heading img {
+    width: 90%;
+    height: auto;
   }
 }
 
@@ -276,7 +285,8 @@ p {
   line-height: 20px;
   text-align:center;
   color: white;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: 40px;
 }
 /* Styling for the center heading text */
 
@@ -314,6 +324,10 @@ hr {
   text-align: center;
   width: 100%;
   overflow: hidden;
+  max-width: 450px;
+}
+#gif img {
+  width: 100%;
 }
 /*____________________________________________________________________________________*/
 /* Footer styling text and social media icons*/
