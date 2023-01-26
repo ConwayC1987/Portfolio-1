@@ -254,12 +254,12 @@ p {
 /* Styling for the div holding the text on the left side */
 #left-about {
   padding-top: 30px;
-  height: 280px;
+  height: 250px;
 }
 /* Styling for the div holding the text on the right side */
 #right-about {
   padding-top: 30px;
-  height: 280px;
+  height: 250px;
 }
 /* Styling for the heading on the left side */
 .left-about-heading {
@@ -318,17 +318,6 @@ hr {
   margin: 5px 0;
 }
 
-/* Gif styling.*/
-#gif {
-  height: auto;
-  text-align: center;
-  width: 100%;
-  overflow: hidden;
-  max-width: 450px;
-}
-#gif img {
-  width: 100%;
-}
 /*____________________________________________________________________________________*/
 /* Footer styling text and social media icons*/
 
