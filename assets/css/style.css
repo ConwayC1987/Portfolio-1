@@ -59,11 +59,11 @@ p {
 }
 
 .header a:hover {
-  color: rgb(255, 136, 62);
+  color: rgba(255, 136, 62, 0.705);
 }
 
 .header a.active {
-  color: rgb(255, 136, 62);
+  color: rgba(255, 136, 62, 0.705);
 }
 
 .header-right {
@@ -460,6 +460,8 @@ p {
   height: auto;
   padding-bottom: 20px;
   padding-top: 20px;
+  overflow: auto;
+  text-align: center;
 }
 
 /*__________________________________________________________________________*/
@@ -473,7 +475,7 @@ p {
 }
 
 #photos img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
