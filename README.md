@@ -43,20 +43,19 @@ This website was is all about Newgrange it provides the user with information of
 ## Favicon
 - A favicon was designed and added to make the website look a lot more professional.
 - This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
-- The letter N was used on top of a green mound representing Newgrange.
+- The letter N was used on top of a green mound representing Newgrange. The image was designed using windows 3d art.
 ![Favicon](/assets/images/favicon.readme.png "Favicon image from the website")
 
 ## Navbar
 ![Navbar](/assets/images/navbar.jpg "Navbar image from the website")
 - The navbar is a key feature without the site and is same layout on all pages making an easy user experience.
 - The site logo is on the left hand side of the navbar and is also a clickable link to bring the user back to the home page and will change colour to let the user know what page they are on.
-- The navbar on the left has three clickable links to different pages on the website that will change colour when clicked. When the user hovers over the link the colour changes so the user knows what page they are selecting.
+- The navbar on the right has three clickable links to different pages on the website that will change colour when clicked. When the user hovers over the link the colour changes so the user knows what page they are selecting.
 - When the screen size goes down the navbar will stack on top of eachother and center themselves in the screen.
 - The navbar means the user will not have to click back as everything is accessible from the navbar. 
 - The colour scheme is kept through out the website, representing the Irish flag colours.
 - The logo on the navbar was styled to stand out to the rest of the text.
-
-When the user clicks into a different page a home button is added to the navbar so the user will know how to get back. This is an image of the navbar when the screen size is reduced to fit moblie phones.
+- When the user clicks into a different page from main page, a home button is added to the navbar so the user will know how to get back. This is an image of the navbar when the screen size is reduced to fit moblie phones.
 
 ![Navbar](/assets/images/navabar_phone_screen.jpg "Navbar image from the website on phone screen size")
 
@@ -94,7 +93,7 @@ When the user clicks into a different page a home button is added to the navbar 
 ![History page image](/assets/images/history_pg.jpg "Website history page")
 ## Video
 
-- It was decided to introduce a video for user that wanted to learn more about Newgrange.
+- A video was added for user that wanted to learn more about Newgrange.
 
 ![Image of the video](/assets/images/video.jpg "Video on the bottom of the history page")
 
@@ -197,7 +196,7 @@ The following git commands were used throughout development to push code to the 
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here 
+The live link can be found [_here_](https://conwayc1987.github.io/Portfolio-1/)
 
 
 ***
