@@ -1,36 +1,36 @@
-![CI logo](https://www.meath.ie/sites/default/files/styles/ultra_widescreen_television/public/2017-04/Newgrange.jpg?h=f8455a73&itok=j_cO_Hxv)
+## Requirements
+
+- In this project, we need to build a static front-end site to present useful information to users, using all the technologies that we have learned about so far.
+- The goal of the site is to provide a reliable source of information pertaining to the history of a particular artefact, person, place or event.
+- Technologies required are HTML and CSS.
+- Website needs a timeline of the subject material, evidence-based information and images/video supporting the facts.
+
+***
+
+![3 screen sizes](/assets/images/responsive.jpg "Responsive design")
 
 
-Live demo [_here_](https://www.example.com).
+Live demo [_here_](https://conwayc1987.github.io/Portfolio-1/).
 
 ***
 
 # **Table of Contents**
 
-## 1. Requirements.....
+###  General Information on the website.....
 
-## 2. General Information on the website.....
+###  Technologies Used.....
 
-## 3. Technologies Used.....
+###  Features included.....
 
-## 4. Features included.....
+###  Troubleshooting.....
 
-## 5. Troubleshooting.....
+###  What I would add or change if I could.....
 
-## 6. What I would add or change if I could.....
-
-## 7. Acknowledgements and Credits.....
+###  Acknowledgements and Credits.....
 
 ***
 
-## 1. Requirements
-
-- In this project, I need to build a static front-end site to present useful information to users, using all the technologies that I have learned about so far.
-- The goal of the site is to provide a reliable source of information pertaining to the history of a particular artefact, person, place or event.
-- Technologies required are HTML and CSS.
-- Website needs a timeline of the subject material, evidence-based information and images/video supporting the facts.
-
-## 2. Newgrange the website
+# Newgrange the website
 
 The website is targeted towards people who want to learn about Ireland ancient history and Ireland's most famous neolithic historical location Newgrange. The website will be useful to students, tourists and anybody that has an interest in the Winter Solstice which was celebrated for thousands of years.
 
@@ -38,17 +38,7 @@ This website was is all about Newgrange it provides the user with information of
 
 ***
 
-## 3. Technologies Used
-
-Technologies used in this website include  
-- HTML
-- CSS 
-- 3D Word art, free windows software, used to make my favicon for the website.
-- Gifrun, which is a free way to change videos into gif's. Website link here https://gifrun.com/.
-
-***
-
-## 4. Features Used
+# Features Used
 
 ## Favicon
 - A favicon was designed and added to make the website look a lot more professional.
@@ -134,7 +124,22 @@ When the user clicks into a different page a home button is added to the navbar 
 
 ***
 
-## Testing
+# Technologies Used
+
+Technologies used in this website include  
+- HTML
+- CSS 
+- 3D Word art, free windows software, used to make my favicon for the website.
+- https://tinyjpg.com/ was used to reduce the size of the images used throughout the website to help with lighthouse reports.
+- Gifrun, which is a free way to change videos into gif's. Website link here https://gifrun.com/.
+- Gitpod and github
+- Font awesome icons obtained from https://fontawesome.com/ were used as the Social media links in the footer. 
+- Favicon.io was used for website unique tab image on https://favicon.io/favicon-converter/.
+- Dev tools were used.
+
+***
+
+# Testing
 
 All links were clicked and tested on every page. Every link on the navbar has the hoover feature of changing colour if the user scrolls over, all links were tested and work on every page.
 ### Responsiveness
@@ -189,9 +194,10 @@ The following git commands were used throughout development to push code to the 
 ### Deployment to Github Pages
  The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
-- Scroll down until 'Pages'
-- Source section drop-down menu, select the Branch: main
-- Click 'Save'
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here 
 
 
 ***
