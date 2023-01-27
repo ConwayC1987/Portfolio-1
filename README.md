@@ -32,7 +32,9 @@ Live demo [_here_](https://www.example.com).
 
 ## 2. Newgrange the website
 
-This website was is all about Newgrange it provides the user with information of the history of Newgrange, what makes it so special, with an image gallery and a page with details on how to enter a draw for a chance to be in Newgrange for the Winter Solstice. The website is fully responsive on all devices and describes how Newgrange was made, when, and by who a video is also provided if the user wanted to learn more.
+The website is targeted towards people who want to learn about Ireland ancient history and Ireland's most famous neolithic historical location Newgrange. The website will be useful to students, tourists and anybody that has an interest in the Winter Solstice which was celebrated for thousands of years.
+
+This website was is all about Newgrange it provides the user with information of the history of Newgrange, what makes it so special. The site has an image gallery and a page with details on how to enter a draw for a chance to be in Newgrange for the Winter Solstice. The website is fully responsive on all devices and describes how Newgrange was made, when, and by who a video is also provided if the user wanted to learn more.
 
 ***
 
@@ -48,6 +50,12 @@ Technologies used in this website include
 
 ## 4. Features Used
 
+## Favicon
+- A favicon was designed and added to make the website look a lot more professional.
+- This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
+- The letter N was used on top of a green mound representing Newgrange.
+![Favicon](/assets/images/favicon.readme.png "Favicon image from the website")
+
 ## Navbar
 ![Navbar](/assets/images/navbar.jpg "Navbar image from the website")
 - The navbar is a key feature without the site and is same layout on all pages making an easy user experience.
@@ -58,44 +66,95 @@ Technologies used in this website include
 - The colour scheme is kept through out the website, representing the Irish flag colours.
 - The logo on the navbar was styled to stand out to the rest of the text.
 
-This is an image of the navbar when the screen size is reduced to fit moblie phones.
+When the user clicks into a different page a home button is added to the navbar so the user will know how to get back. This is an image of the navbar when the screen size is reduced to fit moblie phones.
+
 ![Navbar](/assets/images/navabar_phone_screen.jpg "Navbar image from the website on phone screen size")
 
 ## Hero Image
-![Hero image](/assets/images/hero_readme.jpg "Hero image sunrise at Newgrange")
+![Hero image](/assets/images/landing.jpg "Hero image sunrise at Newgrange")
 
-- The hero image of Newgrange is a great picture and the zoom effect is used on the image every time it is opened or refreshed giving the user and nice experience. The effect looks like the sun is rising over Newgrange this code was from the Love Running video.
+- The hero image of Newgrange is a great picture and the zoom effect is used on the image every time it is opened or refreshed giving the user and nice user experience of animation to grab their attention. The effect looks like the sun is rising over Newgrange.
+- The text overlay sets the tone for user as what to expect from the site. It gives its location (Ireland) and suggesting the site is a history site by the word ancient, the word treasure tells the user that this place is special and important.
+- When the screen size is reduced to phone size the text overlay will disappear.
+
+![Hero image](/assets/images/text_overlay.jpg "Hero image sunrise at Newgrange without text overlay")
+
+## Home page features
+
+- The website only contains a small bit of text information on the home page. The intention is to draw the user in and get them interested into finding out more about the topic and website.
 
 ## Gif
 ![Gif image](/assets/images/readme_gif.jpg "Gif image Winter Solstice in Newgrange")
 
-- I decided into introduce a gif on the home page of what Newgrange is most known for The Winter Solstice. I did this to draw the user in and get them interested. The gif is of sun as it enters the passage way. 
-- The gif was taken from a youtube video https://www.youtube.com/watch?v=NTzPxx3SJ1Y&t=55s and I then used https://gifrun.com/ to make the gif.
+- It was decided into introduce a gif on the home page of what Newgrange is most known for The Winter Solstice. It was done to draw the user in and get them interested by placing it in the center of the screen. The gif is of sun as it enters the passage way on the Winter Solstice.   
 
+## Footer
+
+- The footer section includes links to the relevant social media sites on Newgrange. The links will open to a new tab to allow easy navigation for the user.
+- The footer is valuable to the user as it encourages them to keep connected via social media to hear other people's experience of visting Newgrange.
+- The footer was designed with the Irish colours which is a theme kept throughout the site.
+
+![Footer image](/assets/images/footer.jpg "Website footer")
+
+## History Page 
+
+- Text information is provided on the page with images of Newgrange included with it.
+- The images and text information will stack into 1 column when viewed on a small screen.
+
+![History page image](/assets/images/history_pg.jpg "Website history page")
 ## Video
-![Gif image](/assets/images/readme_gif.jpg "Gif image Winter Solstice in Newgrange")
 
-- I decided to introduce a video for user that wanted to learn more about Newgrange.
+- It was decided to introduce a video for user that wanted to learn more about Newgrange.
+
+![Image of the video](/assets/images/video.jpg "Video on the bottom of the history page")
+
+## Gallery Page
+
+- The page is for users that want to see more images of Newgrange. The images are of the wall art, different design details and a map of other famous sites located near by so the user could maybe plan a trip some time.
+- The gallery is designed to reduce to 1 column on phone screen layout, 2 column for tablet and 3 for desktop.
+
+![Gallery page](/assets/images/gallerypg.jpg "Image of the gallery page")
+
+## Lottery Page
+
+- The page provides the user with information on the Winter Solstices. It tells the user how to enter the draw for a chance to be in the passage way for the Winter Solstice and what details they need to provide. A link is provide that brings the user into their emails with the correct email address needed to enter the draw.
+
+![Lottery page](/assets/images/lotterypg.jpg "Image of the lottery page how to enter the draw")
+
+- A countdown feature was added to let the user know when is the next Winter Solstice.
+
+![Lottery page](/assets/images/countdown.jpg "Image of the lottery page countdown clock")
+
+## Features Left to Implement
+
+ - A map feature with the site location and blog or comments section from people's experience of going to Newgrange.  
+ - Make the website more interactive for the users by using some javascript. 
+ - Would consider changing the navbar to a burger menu if the site got larger.
+ - Could add a lot more detailed history on Newgrange with extra pages on important aspects of its history and possibly a page for 20 facts the user might want know if they didn't want to read a detailed history on Newgrange.
 
 ***
 
-## 5. Troubleshooting
-I had a problem with the index/home page when the screen size was reduced, the footer was staying in the middle of screen the problem was something really simple but took days to solve. Solution was getting rid of the height measurement from the div the above the footer.
+## Testing
 
-![Problem with the footer](/assets/images/footer-problem.jpg "Footer stuck in the middle of the screen")
-
-### I used lighthouse on all the pages on the site and resolved most issues found in the report. 
-
+All links were clicked and tested on every page. Every link on the navbar has the hoover feature of changing colour if the user scrolls over, all links were tested and work on every page.
+### Responsiveness
+All pages were tested to ensure responsiveness on screen sizes from 320px and above by using dev tools. This included opening the site in browser right clicking and selecting inspect. The screen was then dragged in and out to ensure reponsiveness was to 320px. All pages were fully responsive when tested and passed.
+### Lighthouse Testing
 ### - This is the lighthouse report from the index/home page.
 ![Lighthouse report](/assets/images/lighthouse_index.jpg "Index lighthouse result")
-### - This is the lighthouse report from the history page.
+### - This is the lighthouse report from the history page the score in the best practise has been brought down by the youtube video used on the page. 
 ![Lighthouse report](/assets/images/lighthouse_history.jpg "History lighthouse result")
 ### - This is the lighthouse report from the gallery page.
 ![Lighthouse report](/assets/images/lighthouse_results_gallery.jpg "Gallery lighthouse result")
 ### - This is the lighthouse report from the Lottery page.
 ![Lighthouse report](/assets/images/Lighthouse_results_lotterydraw.jpg "Lottery page lighthouse result")
 
+### Validator Testing
+No errors were returned when the HTML was checked on the W3C validator.
 ### I used https://validator.w3.org/ to validate my HTML code.
+### - This is the w3 validater report from the entire website.
+![w3 report](/assets/images/website_w3_report.jpg "Website w3 result")
+
 
 ### - This is the w3 validater report from the index/home page.
 ![w3 report](/assets/images/indexpg_w3report.jpg "Index w3 result")
@@ -111,11 +170,29 @@ I had a problem with the index/home page when the screen size was reduced, the f
 ### - This is the w3 validater report for my CSS code.
 ![w3 report](/assets/images/css_w3report.jpg "CSS w3 result")
 
+
+## 5. Bugs
+A bug with the index/home page when the screen size was reduced, the footer was staying in the middle of screen the problem was something really simple but took days to solve. Solution was getting rid of the height measurement from the div the above the footer.
+
+![Problem with the footer](/assets/images/footer-problem.jpg "Footer stuck in the middle of the screen")
+
 ***
 
-## 6. What I would add or change if I could
+## 6. Deployment
+### Version Control
+The site was created using the Visual Studio code editor using gitpod and pushed to github.
+The following git commands were used throughout development to push code to the remote repo:
+- git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+- git commit -m “commit message” - This command was used to commit changes to the github with a message.
+- git push - This command was used to push all committed code to github.
 
-If I had the time I would introduce a map feature with the site location and blog or comments section from people's experience of going to Newgrange. I would of also liked to make the website more interactive for the users by using some javascript. Although I am very happy with my navbar, I would consider changing the navbar to a burger menu but I think my navbar suits the requirements of the project. I could of added a lot more detailed history on Newgrange with extra pages on important aspects of its history and possibly a page for 20 facts the user might want know if they didn't want to read a detailed history on Newgrange.
+### Deployment to Github Pages
+ The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- Scroll down until 'Pages'
+- Source section drop-down menu, select the Branch: main
+- Click 'Save'
+
 
 ***
 
@@ -141,6 +218,7 @@ The text information was got from various different websites which include.
 - https://en.wikipedia.org/wiki/Newgrange
 - https://www.history.co.uk/articles/the-mystery-of-newgrange-ireland-s-megalithic-marvel
 - https://arthistoryleavingcert.com/pre-christian-ireland-2/newgrange/
+The gif was taken from a youtube video https://www.youtube.com/watch?v=NTzPxx3SJ1Y&t=55s and then https://gifrun.com/ was used to make the gif.
 
 
 
