@@ -34,7 +34,15 @@ Live demo [_here_](https://conwayc1987.github.io/Portfolio-1/).
 
 The website is targeted towards people who want to learn about Ireland ancient history and Ireland's most famous neolithic historical location Newgrange. The website will be useful to students, tourists and anybody that has an interest in the Winter Solstice which was celebrated for thousands of years.
 
-This website was is all about Newgrange it provides the user with information of the history of Newgrange, what makes it so special. The site has an image gallery and a page with details on how to enter a draw for a chance to be in Newgrange for the Winter Solstice. The website is fully responsive on all devices and describes how Newgrange was made, when, and by who a video is also provided if the user wanted to learn more.
+This website is all about Newgrange it provides the user with information of the history of Newgrange, what makes it so special. The site has an image gallery and a page with details on how to enter a draw for a chance to be in Newgrange for the Winter Solstice. The website is fully responsive on all devices and describes how Newgrange was made, when, and by who a video is also provided if the user wanted to learn more.
+
+***
+# Design 
+The design includes a navbar, hero image with 3 divs and a footer.
+## Desktop Design
+![Design](/assets/images/desktop_design.jpg "Design image hand drawn for desktop")
+## Phone Screen Design
+![Design](/assets/images/phone_design.jpg "Design image hand drawn for phone screen size")
 
 ***
 
@@ -128,10 +136,11 @@ This website was is all about Newgrange it provides the user with information of
 Technologies used in this website include  
 - HTML
 - CSS 
+- Visual Studio to write the code.
 - 3D Word art, free windows software, used to make my favicon for the website.
 - https://tinyjpg.com/ was used to reduce the size of the images used throughout the website to help with lighthouse reports.
 - Gifrun, which is a free way to change videos into gif's. Website link here https://gifrun.com/.
-- Gitpod and github
+- Gitpod and github.
 - Font awesome icons obtained from https://fontawesome.com/ were used as the Social media links in the footer. 
 - Favicon.io was used for website unique tab image on https://favicon.io/favicon-converter/.
 - Dev tools were used.
@@ -153,7 +162,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and ab
 ### - This is the lighthouse report from the Lottery page.
 ![Lighthouse report](/assets/images/Lighthouse_results_lotterydraw.jpg "Lottery page lighthouse result")
 
-### Validator Testing
+## Validator Testing
 No errors were returned when the HTML was checked on the W3C validator.
 ### I used https://validator.w3.org/ to validate my HTML code.
 ### - This is the w3 validater report from the entire website.
@@ -174,23 +183,27 @@ No errors were returned when the HTML was checked on the W3C validator.
 ### - This is the w3 validater report for my CSS code.
 ![w3 report](/assets/images/css_w3report.jpg "CSS w3 result")
 
+***
 
-## 5. Bugs
+# Bugs and Unfixed Bugs
+## Fixed
 A bug with the index/home page when the screen size was reduced, the footer was staying in the middle of screen the problem was something really simple but took days to solve. Solution was getting rid of the height measurement from the div the above the footer.
-
 ![Problem with the footer](/assets/images/footer-problem.jpg "Footer stuck in the middle of the screen")
+## Unfixed Bugs
+There was a bug on the history page because of the video used from youtube that lighthouse report showed up "Some third-party embeds can be lazy loaded. Consider replacing them with a facade until they are required." and "Consider marking your touch and wheel event listeners as passive to improve your page's scroll performance.".
+- The two bugs brings down my best practise score and are still unfixed
 
 ***
 
-## 6. Deployment
-### Version Control
+# Deployment
+## Version Control
 The site was created using the Visual Studio code editor using gitpod and pushed to github.
-The following git commands were used throughout development to push code to the remote repo:
+The following git commands were used throughout development to push code.
 - git add <file> - This command was used to add the file(s) to the staging area before they are committed.
 - git commit -m “commit message” - This command was used to commit changes to the github with a message.
 - git push - This command was used to push all committed code to github.
 
-### Deployment to Github Pages
+## Deployment to Github Pages
  The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
@@ -202,7 +215,7 @@ The live link can be found [_here_](https://conwayc1987.github.io/Portfolio-1/)
 ***
 
 
-## 7. Acknowledgements and Credits
+## Acknowledgements and Credits
 
 kevin Powell youtube videos on flexbox was a major help to me this project. The love running video where I got a
 lot of code from and the slides from the course. W3schools where I got a lot of code ideas on how to make little 
@@ -216,15 +229,36 @@ things better. My mentor Gareth Mcgirr who helped me with the project from the c
 
 Information text gathered from various different resources online.
 The text information was got from various different websites which include.
-- https://www.worldhistory.org/Newgrange/
-- https://www.meathchronicle.ie/2021/12/15/newgrange-winter-solstice-to-be-live-streamed/
-- https://mythicalireland.com/blogs/ancient-sites/101-facts-about-newgrange
-- https://www.newgrange.com/#:~:text=Newgrange%20is%20a%20Stone%20Age,the%20Great%20Pyramids%20of%20Giza.
-- https://en.wikipedia.org/wiki/Newgrange
-- https://www.history.co.uk/articles/the-mystery-of-newgrange-ireland-s-megalithic-marvel
-- https://arthistoryleavingcert.com/pre-christian-ireland-2/newgrange/
-The gif was taken from a youtube video https://www.youtube.com/watch?v=NTzPxx3SJ1Y&t=55s and then https://gifrun.com/ was used to make the gif.
+- The text information was got from https://www.worldhistory.org/Newgrange/ for the lottery page.
+- The text information for the home page was taken from here https://www.meathchronicle.ie/2021/12/15/newgrange-winter-solstice-to-be-live-streamed/
+- The text information for the middle part on the history page was taken from https://mythicalireland.com/blogs/ancient-sites/101-facts-about-newgrange
+- The text information from the home page left section was taken from https://www.newgrange.com/#:~:text=Newgrange%20is%20a%20Stone%20Age,the%20Great%20Pyramids%20of%20Giza.
+- The text information for the history botton section was taken from here https://en.wikipedia.org/wiki/Newgrange
+- The text information the middle section on the history page https://www.history.co.uk/articles/the-mystery-of-newgrange-ireland-s-megalithic-marvel
+- The text information on the building and moving the stones on the history page https://arthistoryleavingcert.com/pre-christian-ireland-2/newgrange/
 
+## Media
+- The gif was taken from a youtube video https://www.youtube.com/watch?v=NTzPxx3SJ1Y&t=55s and then https://gifrun.com/ was used to make the gif.
+- Hero image was taken from https://www.meath.ie/sites/default/files/styles/ultra_widescreen_television/public/2017-04/Newgrange.jpg?h=f8455a73&itok=j_cO_Hxv
+- The arial photo on the history page was taken from https://www.newgrange.com/newgrange/newgrange_aerial.jpg
+- The image of the entrance of Newgrange on the history page was taken from https://www.exploredplanet.com/wp-content/uploads/2020/07/GettyImages-186797999-82007.jpg?width=800&height=533
+- The image of stoneage men moving giant rocks on the history page was taken from https://deirdremorgan1.files.wordpress.com/2014/04/log-rolling.jpg
+- The image of the stoneage men building the walls and roof on the history page was taken from https://cdn.shopify.com/s/files/1/0603/7087/8620/files/Newgrange_roof-slab-diagram.jpg
+- The video on the history is a link from youtube here is the link https://www.youtube.com/watch?v=2ldH0a_LsX4
+- The first image in the gallery page was taken from https://www.irishcentral.com/uploads/article/120119/cropped_Newgrange.TourismIreland.jpg?t=1624346420
+- The second image in the gallery page was taken from https://historycouk.s3.eu-west-2.amazonaws.com/s3fs-public/styles/860x430/public/2021-12/newgrange%206-min.jpg
+- The third image in the gallery page was taken from https://historycouk.s3.eu-west-2.amazonaws.com/s3fs-public/inline-images/Newgrange%20rock-min.jpg
+- The 4th image in the gallery page was taken from https://www.worldhistory.org/uploads/images/4050.jpg?v=1599372904
+- The 5th image in the gallery page was taken from https://www.newgrange.com/newgrange/newgrange_aerial.jpg
+- Image made on windows 3d word art
+- The 7th image in the gallery page was taken from Image got from https://deirdremorgan1.files.wordpress.com/2014/04/log-rolling.jpg
+- The 8th image in the gallery page was taken from https://www.meath.ie/sites/default/files/styles/ultra_widescreen_television/public/2017-04/Newgrange.jpg?h=f8455a73&itok=j_cO_Hxv
+- The 9th image in the gallery page was taken from https://assets.answersingenesis.org/img/cms/content/contentnode/header_image/am/v11/n2/newgrange.jpg
+- The 10th image in the gallery page was taken from https://historycouk.s3.eu-west-2.amazonaws.com/s3fs-public/inline-images/Newgrange%20at%20night-min.jpg
+- The 11th image in the gallery page was taken from https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC9sZWdhY3lzM1xcXC9tZWRpYVxcXC9pbWFnZXNcXFwvd1xcXC93aW50ZXJzb2xzdGljZUQyMDE5X2xhcmdlLmpwZWdcIixcIndpZHRoXCI6bnVsbCxcImhlaWdodFwiOjM2MCxcImRlZmF1bHRcIjpcImh0dHBzOlxcXC9cXFwvd3d3LmJyZWFraW5nbmV3cy5pZVxcXC9pbWFnZXNcXFwvbm8taW1hZ2UucG5nXCIsXCJvcHRpb25zXCI6e1wib3V0cHV0XCI6XCJ3ZWJwXCJ9fSIsImhhc2giOiJhMDZkMmQzYTI5ZWY2YThmMzQ3NTQ2MGMxMTgyNjNkY2E4MTgzOWNmIn0=/wintersolsticed2019-large.jpeg
+- The 12th image in the gallery page was taken from https://www.facebook.com/BoyneValleyTours/photos/pcb.2687817771257749/2687811267925066/?type=3&__tn__=HH-R&eid=ARC4g5xQiIPoa5ba0BlTiEAgmZC4PwBlIeo5mG2uAfcKVCB1I7sUdKXOpWCx1W2h_q-KidNQ1WL0wjv2&__xts__%5B0%5D=68.ARBcOKuLHdEngb2PDmU9y3tecZJnj4vT2yf7VDdNlAEWRFok2ILn7vgYVgSEgS155FUJN_5fMuKGyZkUJedgYrDO5dbmL6QK5XMNyGvXtHjv4dZ_fBfdFaDXBz2EOvSPMe4n21bo8dJCEZFUrIvkdVbClc-WX8hP9A1qiaJcOqAMfny20PZjYb2o8EONamQFtJ1BZ8zglS6e_Ra5g1__ngOspchx3Nw1i8jLCh79VABuVFofCd0DjNDwQYgGawJjajhKMhUoBPN352tNhvVNNc5UgXGOkQgB
+- The 10th image in the gallery page was taken from https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thejournal.ie%2Fnewgrange-chamber-winter-solstice-livestream-5635765-Dec2021%2F&psig=AOvVaw1irLLroE2ltamL-Czq061y&ust=1674854936633000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMiOpv2X5vwCFQAAAAAdAAAAABAD
+- The lottery page image was taken from https://www.meath.ie/sites/default/files/styles/ultra_widescreen_television/public/2017-04/Newgrange.jpg?h=f8455a73&itok=j_cO_Hxv
 
 
 ***
