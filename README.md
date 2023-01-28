@@ -38,10 +38,10 @@ This website is all about Newgrange it provides the user with information of the
 - A favicon was designed and added to make the website look a lot more professional.
 - This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 - The letter N was used on top of a green mound representing Newgrange. The image was designed using windows 3d art.
-![Favicon](/assets/images/favicon.readme.png "Favicon image from the website")
+![Favicon](/readme_images/favicon.readme.png "Favicon image from the website")
 
 ## Navbar
-![Navbar](/assets/images/navbar.jpg "Navbar image from the website")
+![Navbar](/readme_images/navbar.jpg "Navbar image from the website")
 - The navbar is a key feature without the site and is same layout on all pages making an easy user experience.
 - The site logo is on the left hand side of the navbar and is also a clickable link to bring the user back to the home page and will change colour to let the user know what page they are on.
 - The navbar on the right has three clickable links to different pages on the website that will change colour when clicked. When the user hovers over the link the colour changes so the user knows what page they are selecting.
@@ -51,23 +51,23 @@ This website is all about Newgrange it provides the user with information of the
 - The logo on the navbar was styled to stand out to the rest of the text.
 - When the user clicks into a different page from main page, a home button is added to the navbar so the user will know how to get back. This is an image of the navbar when the screen size is reduced to fit moblie phones.
 
-![Navbar](/assets/images/navabar_phone_screen.jpg "Navbar image from the website on phone screen size")
+![Navbar](/readme_images/navabar_phone_screen.jpg "Navbar image from the website on phone screen size")
 
 ## Hero Image
-![Hero image](/assets/images/landing.jpg "Hero image sunrise at Newgrange")
+![Hero image](/readme_images/landing.jpg "Hero image sunrise at Newgrange")
 
 - The hero image of Newgrange is a great picture and the zoom effect is used on the image every time it is opened or refreshed giving the user and nice user experience of animation to grab their attention. The effect looks like the sun is rising over Newgrange.
 - The text overlay sets the tone for user as what to expect from the site. It gives its location (Ireland) and suggesting the site is a history site by the word ancient, the word treasure tells the user that this place is special and important.
 - When the screen size is reduced to phone size the text overlay will disappear.
 
-![Hero image](/assets/images/text_overlay.jpg "Hero image sunrise at Newgrange without text overlay")
+![Hero image](/readme_images/text_overlay.jpg "Hero image sunrise at Newgrange without text overlay")
 
 ## Home page features
 
 - The website only contains a small bit of text information on the home page. The intention is to draw the user in and get them interested into finding out more about the topic and website.
 
 ## Gif
-![Gif image](/assets/images/readme_gif.jpg "Gif image Winter Solstice in Newgrange")
+![Gif image](/readme_images/readme_gif.jpg "Gif image Winter Solstice in Newgrange")
 
 - It was decided into introduce a gif on the home page of what Newgrange is most known for The Winter Solstice. It was done to draw the user in and get them interested by placing it in the center of the screen. The gif is of sun as it enters the passage way on the Winter Solstice.   
 
@@ -78,36 +78,36 @@ This website is all about Newgrange it provides the user with information of the
 - The footer was designed with the Irish colours which is a theme kept throughout the site.
 - The footer is on all pages.
 
-![Footer image](/assets/images/footer.jpg "Website footer")
+![Footer image](readme_images/footer.jpg "Website footer")
 
 ## History Page 
 
 - Text information is provided on the page with images of Newgrange included with it.
 - The images and text information will stack from 2 into 1 column when viewed on a small screen.
 
-![History page image](/assets/images/history_pg.jpg "Website history page")
+![History page image](/readme_images/history_pg.jpg "Website history page")
 ## Video
 
 - A video was added to the history page for user that wanted to learn more about Newgrange.
 
-![Image of the video](/assets/images/video.jpg "Video on the bottom of the history page")
+![Image of the video](/readme_images/video.jpg "Video on the bottom of the history page")
 
 ## Gallery Page
 
 - The page is for users that want to see more images of Newgrange. The images are of the wall art, different design details and a map of other famous sites located near by so the user could maybe plan a trip some time.
 - The gallery is designed to reduce to 1 column on phone screen layout, 2 column for tablet and 3 for desktop.
 
-![Gallery page](/assets/images/gallerypg.jpg "Image of the gallery page")
+![Gallery page](/readme_images/gallerypg.jpg "Image of the gallery page")
 
 ## Lottery Page
 
 - The page provides the user with information on the Winter Solstices. It tells the user how to enter the draw for a chance to be in the passage way for the Winter Solstice and what details they need to provide. A link is provide that brings the user into their emails with the correct email address needed to enter the draw.
 
-![Lottery page](/assets/images/lotterypg.jpg "Image of the lottery page how to enter the draw")
+![Lottery page](/readme_images/lotterypg.jpg "Image of the lottery page how to enter the draw")
 
 - A countdown feature was added to let the user know when is the next Winter Solstice.
 
-![Lottery page](/assets/images/countdown.jpg "Image of the lottery page countdown clock")
+![Lottery page](/readme_images/countdown.jpg "Image of the lottery page countdown clock")
 
 ## Features Left to Implement
 
@@ -144,34 +144,34 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and ab
 
 ### Lighthouse Testing
 ### - This is the lighthouse report from the index/home page.
-![Lighthouse report](/assets/images/lighthouse_index.jpg "Index lighthouse result")
+![Lighthouse report](/readme_images/lighthouse_index.jpg "Index lighthouse result")
 ### - This is the lighthouse report from the history page the score in the best practise has been brought down by the youtube video used on the page. 
-![Lighthouse report](/assets/images/lighthouse_history.jpg "History lighthouse result")
+![Lighthouse report](/readme_images/lighthouse_history.jpg "History lighthouse result")
 ### - This is the lighthouse report from the gallery page.
-![Lighthouse report](/assets/images/lighthouse_results_gallery.jpg "Gallery lighthouse result")
+![Lighthouse report](/readme_images/lighthouse_results_gallery.jpg "Gallery lighthouse result")
 ### - This is the lighthouse report from the Lottery page.
-![Lighthouse report](/assets/images/Lighthouse_results_lotterydraw.jpg "Lottery page lighthouse result")
+![Lighthouse report](/readme_images/Lighthouse_results_lotterydraw.jpg "Lottery page lighthouse result")
 
 ## Validator Testing
 No errors were returned when the HTML was checked on the W3C validator.
 ### I used https://validator.w3.org/ to validate my HTML code.
 ### - This is the w3 validater report from the entire website.
-![w3 report](/assets/images/website_w3_report.jpg "Website w3 result")
+![w3 report](/readme_images/website_w3_report.jpg "Website w3 result")
 
 
 ### - This is the w3 validater report from the index/home page.
-![w3 report](/assets/images/indexpg_w3report.jpg "Index w3 result")
+![w3 report](/readme_images/indexpg_w3report.jpg "Index w3 result")
 ### - This is the w3 validater report from the history page.
-![w3 report](/assets/images/historypg_w3report.jpg "History page w3 result")
+![w3 report](/readme_images/historypg_w3report.jpg "History page w3 result")
 ### - This is the w3 validater report from the gallery page.
-![w3 report](/assets/images/gallerypg_w3results.jpg "Gallery page w3 result")
+![w3 report](/readme_images/gallerypg_w3results.jpg "Gallery page w3 result")
 ### - This is the w3 validater report from the lottery page.
-![w3 report](/assets/images/lotterypg_w3results.jpg "Lottery page w3 result")
+![w3 report](/readme_images/lotterypg_w3results.jpg "Lottery page w3 result")
 
 ### I used https://jigsaw.w3.org/css-validator/ to validate my CSS code.
 
 ### - This is the w3 validater report for my CSS code.
-![w3 report](/assets/images/css_w3report.jpg "CSS w3 result")
+![w3 report](/readme_images/css_w3report.jpg "CSS w3 result")
 
 ***
 
@@ -179,7 +179,7 @@ No errors were returned when the HTML was checked on the W3C validator.
 
 ## Fixed
 A bug with the index/home page when the screen size was reduced, the footer was staying in the middle of screen the problem was something really simple but took days to solve. Solution was getting rid of the height measurement from the div the above the footer.
-![Problem with the footer](/assets/images/footer-problem.jpg "Footer stuck in the middle of the screen")
+![Problem with the footer](/readme_images/footer-problem.jpg "Footer stuck in the middle of the screen")
 ## Unfixed Bugs
 There was a bug on the history page because of the video used from youtube that lighthouse report showed up "Some third-party embeds can be lazy loaded. Consider replacing them with a facade until they are required." and "Consider marking your touch and wheel event listeners as passive to improve your page's scroll performance.".
 - The two bugs brings down my best practise score in the lighthouse report and are still unfixed.
