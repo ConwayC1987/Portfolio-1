@@ -498,28 +498,29 @@ p {
 
 /* Lottery page */
 
+/* Styling for a button to enter the lottery draw */
 #lottery_link a {
   background-color: #117008;
   color: whitesmoke;
   text-decoration:none;
 }
-
+/* Sign up information for the lottery */
 #form-section {
   text-align: center;
 }
-
+/* Image on the bottom of lottery page div using flexbox */
 #form-section li {
   font-size: 20px;
   font-weight: bolder;
 }
-
+/* Image on the bottom of lottery page flexbox */
 #signup_img {
   display: flex;
   flex-direction: row;
   font-size: 30px;
   text-align: center;
 }
-
+/* Image on the bottom of lottery page */
 #img_bottom {
   width: 70%;
   padding: 10px;

@@ -7,26 +7,10 @@
 
 ***
 
-![3 screen sizes](/assets/images/responsive.jpg "Responsive design")
+![3 screen sizes](/readme_images/responsive.jpg "Responsive design")
 
 
 Live demo [_here_](https://conwayc1987.github.io/Portfolio-1/).
-
-***
-
-# **Table of Contents**
-
-###  General Information on the website.....
-
-###  Technologies Used.....
-
-###  Features included.....
-
-###  Troubleshooting.....
-
-###  What I would add or change if I could.....
-
-###  Acknowledgements and Credits.....
 
 ***
 
@@ -37,12 +21,14 @@ The website is targeted towards people who want to learn about Ireland ancient h
 This website is all about Newgrange it provides the user with information of the history of Newgrange, what makes it so special. The site has an image gallery and a page with details on how to enter a draw for a chance to be in Newgrange for the Winter Solstice. The website is fully responsive on all devices and describes how Newgrange was made, when, and by who a video is also provided if the user wanted to learn more.
 
 ***
+
 # Design 
-The design includes a navbar, hero image with 3 divs and a footer.
-## Desktop Design
-![Design](/assets/images/desktop_design.jpg "Design image hand drawn for desktop")
-## Phone Screen Design
-![Design](/assets/images/phone_design.jpg "Design image hand drawn for phone screen size")
+## Wireframe 
+- The design includes a navbar, hero image with 3 divs and a footer.
+- Desktop Design
+![Design](/readme_images/desktop_design.jpg "Design image hand drawn for desktop")
+- Phone Screen Design
+![Design](/readme_images/phone_design.jpg "Design image hand drawn for phone screen size")
 
 ***
 
@@ -90,18 +76,19 @@ The design includes a navbar, hero image with 3 divs and a footer.
 - The footer section includes links to the relevant social media sites on Newgrange. The links will open to a new tab to allow easy navigation for the user.
 - The footer is valuable to the user as it encourages them to keep connected via social media to hear other people's experience of visting Newgrange.
 - The footer was designed with the Irish colours which is a theme kept throughout the site.
+- The footer is on all pages.
 
 ![Footer image](/assets/images/footer.jpg "Website footer")
 
 ## History Page 
 
 - Text information is provided on the page with images of Newgrange included with it.
-- The images and text information will stack into 1 column when viewed on a small screen.
+- The images and text information will stack from 2 into 1 column when viewed on a small screen.
 
 ![History page image](/assets/images/history_pg.jpg "Website history page")
 ## Video
 
-- A video was added for user that wanted to learn more about Newgrange.
+- A video was added to the history page for user that wanted to learn more about Newgrange.
 
 ![Image of the video](/assets/images/video.jpg "Video on the bottom of the history page")
 
@@ -149,9 +136,12 @@ Technologies used in this website include
 
 # Testing
 
-All links were clicked and tested on every page. Every link on the navbar has the hoover feature of changing colour if the user scrolls over, all links were tested and work on every page.
+- All links were clicked and tested on every page. Every link on the navbar has the hoover feature of changing colour if the user scrolls over, all links were tested and work on every page.
+- The website was tested on three different browsers Chrome, Firefox and Microsoft Edge with no bugs.
+
 ### Responsiveness
 All pages were tested to ensure responsiveness on screen sizes from 320px and above by using dev tools. This included opening the site in browser right clicking and selecting inspect. The screen was then dragged in and out to ensure reponsiveness was to 320px. All pages were fully responsive when tested and passed.
+
 ### Lighthouse Testing
 ### - This is the lighthouse report from the index/home page.
 ![Lighthouse report](/assets/images/lighthouse_index.jpg "Index lighthouse result")
@@ -186,12 +176,13 @@ No errors were returned when the HTML was checked on the W3C validator.
 ***
 
 # Bugs and Unfixed Bugs
+
 ## Fixed
 A bug with the index/home page when the screen size was reduced, the footer was staying in the middle of screen the problem was something really simple but took days to solve. Solution was getting rid of the height measurement from the div the above the footer.
 ![Problem with the footer](/assets/images/footer-problem.jpg "Footer stuck in the middle of the screen")
 ## Unfixed Bugs
 There was a bug on the history page because of the video used from youtube that lighthouse report showed up "Some third-party embeds can be lazy loaded. Consider replacing them with a facade until they are required." and "Consider marking your touch and wheel event listeners as passive to improve your page's scroll performance.".
-- The two bugs brings down my best practise score and are still unfixed
+- The two bugs brings down my best practise score in the lighthouse report and are still unfixed.
 
 ***
 
@@ -211,23 +202,21 @@ The following git commands were used throughout development to push code.
 
 The live link can be found [_here_](https://conwayc1987.github.io/Portfolio-1/)
 
-
 ***
 
-
-## Acknowledgements and Credits
-
-kevin Powell youtube videos on flexbox was a major help to me this project. The love running video where I got a
-lot of code from and the slides from the course. W3schools where I got a lot of code ideas on how to make little 
-things better. My mentor Gareth Mcgirr who helped me with the project from the concept to the design and troubleshooting. He showed me tricks to make my life a lot easier.
-- Code from the Love Running project was used through out the project and mixed with what I learned years ago.
+# Acknowledgements and Credits
+## Content
+kevin Powell youtube videos on flexbox was a major help to this project. The love running video a lot of code from and the slides from the course were used. W3schools a lot of code ideas on how to make little things better. Mentor Gareth Mcgirr who helped with the project from the concept and troubleshooting he made the project a lot less stressful.
+- Code from the Love Running project was used through out the project and mixed with what was learned years ago.
 - Code for the navbar was a mix of the Love Running project but the responsive idea was from W3schools.
-- Code using flexbox was taken from Kevin Powell youtube video's https://www.youtube.com/watch?v=3elGSZSWTbM.
-- Code for the history page was mixed with W3schools and code institute videos.
+- Code using flexbox was taken from Kevin Powell youtube video's https://www.youtube.com/watch?
+v=3elGSZSWTbM.
+- The icons in the footer were taken from Font Awesome.
+- Widget code for the countdown timer got from https://www.tickcounter.com/
+- Code for the history page main section was mixed with W3schools and code institute videos.
 - The gallery page main section code was from the Love Running project.
 - Code for the footer was take from https://www.youtube.com/watch?v=VUydBuotmR4 and mixed with w3schools.
-
-Information text gathered from various different resources online.
+## Text content
 The text information was got from various different websites which include.
 - The text information was got from https://www.worldhistory.org/Newgrange/ for the lottery page.
 - The text information for the home page was taken from here https://www.meathchronicle.ie/2021/12/15/newgrange-winter-solstice-to-be-live-streamed/
